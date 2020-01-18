@@ -1,0 +1,121 @@
+
+body {
+  font-family: WhiteFont;
+  src: url(WhiteTHIN.ttf);
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+}
+
+input[type=number]{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #a1b736   ;
+  color: white;
+  padding: 14px 17px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Extra styles for the cancel button */
+.selectbtn {
+  padding: 14px 20px;
+  background-color: #748825 ;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.selectbtn, .sendbtn {
+  float: left;
+  width: 50px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .selectbtn, .sendbtn {
+     width: 100%;
+  }
+}
+
+
+.container{
+  display: block;
+  position: relative;
+  margin: 35px auto;
+  height: auto;
+  width: 450px;
+  padding: 5px;
+}
+
+.summary-total {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  clear: both;
+  margin: 1rem 0;
+  overflow: hidden;
+  padding: 0.5rem 0;
+}
+
+.total-title, .total-value{
+  color: #111;
+  float: left;
+  width: 50%;
+}
+.price:before,
+.subtotal:before,
+.subtotal-value:before,
+.total-value:before,
+.promo-value:before {
+  content: '฿';
+}
+
+
+
+
+
+
+
